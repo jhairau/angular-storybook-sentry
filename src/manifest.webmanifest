@@ -1,6 +1,6 @@
 {
-  "name": "ng2020",
-  "short_name": "ng2020",
+  "name": "angular-9-starter",
+  "short_name": "angular-9-starter",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

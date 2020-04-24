@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng2020"
+    }
+  },
+  "defaultProject": "ng2020",
+  "cli": {
+    "analytics": false
+  }
 }

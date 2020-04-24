@@ -2,10 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
-    "types": [
-      "jasmine",
-      "node"
-    ]
+    "module": "commonjs",
+    "allowJs": true,
+    "types": ["jest", "jasmine", "jquery", "jsdom", "node"],
   },
   "files": [
     "src/test.ts",

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example Component Blue Custom Text 1`] = `
+<storybook-dynamic-app-root
+  cfr={[Function CodegenComponentFactoryResolver]}
+  data={[Function Object]}
+  target={[Function ViewContainerRef_]}
+>
+  <app-example-component>
+    <button
+      ng-reflect-ng-style="[object Object]"
+      style="color: rgb(0, 0, 255);"
+    >
+      Hello Human
+    </button>
+  </app-example-component>
+</storybook-dynamic-app-root>
+`;
+
+exports[`Storyshots Example Component Custom Text 1`] = `
+<storybook-dynamic-app-root
+  cfr={[Function CodegenComponentFactoryResolver]}
+  data={[Function Object]}
+  target={[Function ViewContainerRef_]}
+>
+  <app-example-component>
+    <button
+      ng-reflect-ng-style="[object Object]"
+      style="color: rgb(0, 0, 0);"
+    >
+      Hello Storybook
+    </button>
+  </app-example-component>
+</storybook-dynamic-app-root>
+`;
+
+exports[`Storyshots Example Component Default 1`] = `
+<storybook-dynamic-app-root
+  cfr={[Function CodegenComponentFactoryResolver]}
+  data={[Function Object]}
+  target={[Function ViewContainerRef_]}
+>
+  <app-example-component>
+    <button
+      ng-reflect-ng-style="[object Object]"
+      style="color: rgb(0, 0, 0);"
+    >
+      Hello Storybook
+    </button>
+  </app-example-component>
+</storybook-dynamic-app-root>
+`;
+
+exports[`Storyshots Example Component Red 1`] = `
+<storybook-dynamic-app-root
+  cfr={[Function CodegenComponentFactoryResolver]}
+  data={[Function Object]}
+  target={[Function ViewContainerRef_]}
+>
+  <app-example-component>
+    <button
+      ng-reflect-ng-style="[object Object]"
+      style="color: rgb(255, 0, 0);"
+    >
+      Default
+    </button>
+  </app-example-component>
+</storybook-dynamic-app-root>
+`;

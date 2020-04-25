@@ -1,0 +1,24 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+  browser-tools: circleci/browser-tools@1.0.0
+jobs:
+  build-and-test:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver
+      - node/with-cache:
+          steps:
+            - run: npm install
+            - run: npm run lint
+            - run: npm run jest:ci
+            - run: npm run test:ci
+            - run: npm run e2e:ci
+            - run: npm run build
+workflows:
+    build-and-test:
+      jobs:
+        - build-and-test

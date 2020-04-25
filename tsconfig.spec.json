@@ -4,7 +4,7 @@
     "outDir": "./out-tsc/spec",
     "module": "commonjs",
     "allowJs": true,
-    "types": ["jest", "jasmine", "jquery", "jsdom", "node"],
+    "types": ["jasmine", "node"],
   },
   "files": [
     "src/test.ts",

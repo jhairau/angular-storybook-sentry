@@ -1,6 +1,13 @@
 # Angular 9 Starter
 This project starts you off with the latest stable version of Angular 9. Storybook has been setup and StoryShots has been configured.
 
+[![angular-9-starter](https://circleci.com/gh/jhairau/angular-9-starter.svg?style=shield)]([<LINK>](https://github.com/jhairau/angular-9-starter))
+[![Known Vulnerabilities](https://snyk.io/test/github/jhairau/angular-9-starter/badge.svg)](https://snyk.io/test/github/jhairau/angular-9-starter)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
+
+
+
+
 - [Angular 9 Starter](#angular-9-starter)
   - [Testing Application](#testing-application)
     - [Running tests](#running-tests)

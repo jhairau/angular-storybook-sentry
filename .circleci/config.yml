@@ -1,10 +1,14 @@
 version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+  browser-tools: circleci/browser-tools@1.0.0
 jobs:
   build-and-test:
-    docker:
-      - image: circleci/node:10-browsers
+    executor:
+      name: node/default
     steps:
       - checkout
+      - browser-tools/install-chromedriver
       - node/with-cache:
           steps:
             - run: npm install

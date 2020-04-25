@@ -8,6 +8,7 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - browser-tools/install-chrome
       - browser-tools/install-chromedriver
       - node/with-cache:
           steps:
